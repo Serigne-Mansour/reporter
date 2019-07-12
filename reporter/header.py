@@ -35,4 +35,4 @@ def create_header(author_list, place = "Paris"):
             last = ''
             warnings.warn('lastname missing')
         Lines.append("-" + first  + " " + last )
-    print("\n".join(Lines))
+    return "\n".join(Lines)
